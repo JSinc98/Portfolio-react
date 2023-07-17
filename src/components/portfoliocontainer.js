@@ -4,6 +4,7 @@ import Home from './pages/home';
 import Projects from './pages/projects';
 import Resume from './pages/resume';
 import Contact from './pages/contact';
+import './portfoliocontainer.css';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -26,7 +27,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='portfolio-container'>
       <h1>Joshua Sinclair</h1>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />

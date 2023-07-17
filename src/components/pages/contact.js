@@ -1,7 +1,9 @@
 import React from 'react';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import emailjs from '@emailjs/browser';
+import './contact.css';
 import './App.css';
+
 
 const SERVICE_ID = "service_i7aq82n";
 const TEMPLATE_ID = "template_ah7bxue";
@@ -20,6 +22,7 @@ const handleOnSubmit = (e) => {
 
 export default function Contact() {
   return (
+    <div className='contact'>
     <div className='App'>
       <Form onSubmit={handleOnSubmit}>
         <Form.Field
@@ -52,6 +55,7 @@ export default function Contact() {
         />
         <Button type='submit' color='green'>Submit</Button>
       </Form>
+    </div>
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 95vh;
+    background-image: url('../../images/starrybg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.resume ul {
+    color: #fff;
+    font-size: xx-large;
+}
+
+.resume h1 {
+    color: #fff;
+}
+
+.resume li {
+    font-size: x-large;
+    padding: 10px;
+}

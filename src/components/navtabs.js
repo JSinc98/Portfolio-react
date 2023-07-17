@@ -4,7 +4,7 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul  className="nav nav-tabs d-flex align-items-center">
+    <ul className="nav nav-tabs d-flex mr-auto">
       <li className="nav-item">
         <a
           href="#home"

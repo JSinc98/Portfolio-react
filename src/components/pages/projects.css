@@ -1,0 +1,33 @@
+.projectlist {
+    background-image: url('../../images/starrybg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.projectlist p {
+    color: #fff;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projectlist h1 {
+    color: #fff;
+    padding-left: 42.5%;
+}
+
+.projectlist h4 {
+    color: #fff;
+    padding-left: 42.5%;
+    padding-top: 50px;
+}
+
+.projectlist img {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+
+
+

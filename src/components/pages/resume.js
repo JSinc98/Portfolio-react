@@ -1,8 +1,9 @@
 import React from 'react';
+import './resume.css';
 
 export default function Resume() {
   return (
-    <div class='bg-blue'>
+    <div className="resume">
       <div>
       <h1><strong><u>Skills</u></strong></h1>
       </div>
